@@ -13,16 +13,48 @@
      <SHORT_TEXT>Test</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
-       <PARAMETER>TEST_PARAMETER</PARAMETER>
+       <PARAMETER>I_TEST_PARAMETER</PARAMETER>
        <REFERENCE>X</REFERENCE>
        <TYP>STRING</TYP>
       </RSIMP>
      </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_TEST_PARAMETER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_TEST_PARAMETER</PARAMETER>
+       <DBSTRUCT>T100</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>EXCEPTION</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
      <DOCUMENTATION>
       <RSFDO>
-       <PARAMETER>TEST_PARAMETER</PARAMETER>
+       <PARAMETER>I_TEST_PARAMETER</PARAMETER>
        <KIND>P</KIND>
        <STEXT>Test Parameter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_TEST_PARAMETER</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_TEST_PARAMETER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Messages</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXCEPTION</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Exception</STEXT>
       </RSFDO>
      </DOCUMENTATION>
     </item>
