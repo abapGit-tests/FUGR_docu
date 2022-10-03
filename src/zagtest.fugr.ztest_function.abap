@@ -7,6 +7,8 @@ FUNCTION ztest_function.
 *"     REFERENCE(E_TEST_PARAMETER) TYPE  I
 *"  TABLES
 *"      T_TEST_PARAMETER STRUCTURE  T100
+*"  CHANGING
+*"     REFERENCE(C_TEST_PARAMETER) TYPE  STRING
 *"  EXCEPTIONS
 *"      EXCEPTION
 *"----------------------------------------------------------------------

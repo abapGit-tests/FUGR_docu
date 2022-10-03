@@ -18,6 +18,13 @@
        <TYP>STRING</TYP>
       </RSIMP>
      </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>C_TEST_PARAMETER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSCHA>
+     </CHANGING>
      <EXPORT>
       <RSEXP>
        <PARAMETER>E_TEST_PARAMETER</PARAMETER>
@@ -40,16 +47,22 @@
       <RSFDO>
        <PARAMETER>I_TEST_PARAMETER</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Test Parameter</STEXT>
+       <STEXT>Import Parameter</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>E_TEST_PARAMETER</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Export Parameter</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>T_TEST_PARAMETER</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Messages</STEXT>
+       <STEXT>Table Parameter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>C_TEST_PARAMETER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Changing Parameter</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>EXCEPTION</PARAMETER>
